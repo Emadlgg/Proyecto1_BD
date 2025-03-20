@@ -8,23 +8,6 @@ Este repositorio contiene el diseño e implementación de una base de datos para
 - **Datos de Prueba:** Scripts SQL con datos ficticios para validar el diseño de la base de datos.
 - **Documentación:** Reglas de negocio y restricciones implementadas en la base de datos.
 
-## Estructura del Repositorio
-
-/Proyecto_Base_de_Datos_FinanzasPersonales
-│
-├── /docs
-│ ├── Modelo_ER.pdf
-│ ├── Reglas_de_Negocio.md
-│ └── Cambios_Migraciones.md
-│
-├── /scripts
-│ ├── v1.0.sql
-│ ├── v1.1.sql
-│ └── datos_prueba.sql
-│
-└── README.md
-
-
 ## Instrucciones de Uso
 
 1. Clona el repositorio:
