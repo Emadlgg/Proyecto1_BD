@@ -30,7 +30,7 @@ Este repositorio contiene el diseño e implementación de una base de datos para
 1. Clona el repositorio:
    ```bash
    git clone https://github.com/tu-usuario/Proyecto_Base_de_Datos_FinanzasPersonales.git
-
+   
 2. Ejecuta los scripts SQL en tu sistema de gestión de bases de datos (DBMS) preferido para crear la base de datos y cargar los datos de prueba.
 3. Consulta la documentación en la carpeta /docs para más detalles sobre el diseño y las reglas de negocio.
 
