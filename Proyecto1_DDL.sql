@@ -42,11 +42,25 @@ CREATE TABLE Transaction (
 );
 
 -- Crear la tabla Presupuesto
+DROP TABLE IF EXISTS Presupuesto;
 CREATE TABLE Presupuesto (
-    idPresupuesto SERIAL PRIMARY KEY, 
-    limite DOUBLE PRECISION NOT NULL, 
+    idPresupuesto SERIAL PRIMARY KEY,
+    limite DOUBLE PRECISION NOT NULL,
     idCategoria INT,
     idUsuario INT,
+    periodo DATE NOT NULL,
     FOREIGN KEY (idCategoria) REFERENCES Categoria(idCategoria),
     FOREIGN KEY (idUsuario) REFERENCES Usuario(idUsuario)
 );
+
+-- Agregar tabla Notificacion
+CREATE TABLE Notificacion (
+    idNotificacion SERIAL PRIMARY KEY,
+    mensaje VARCHAR(255) NOT NULL,
+    fecha DATE NOT NULL,
+    idUsuario INT,
+    FOREIGN KEY (idUsuario) REFERENCES Usuario(idUsuario)
+);
+
+-- Modificar tabla Usuario para agregar telefono
+ALTER TABLE Usuario ADD telefono VARCHAR(15);
