@@ -19,7 +19,7 @@ Este repositorio contiene el diseño e implementación de una base de datos para
 
 ## Tecnologías Utilizadas
 - SQL
-- MySQL (o cualquier DBMS relacional)
+- PGSQL
 - GitHub (para versionamiento)
 
 **Nota: Este proyecto fue desarrollado como parte de un curso académico y está destinado a fines educativos.**
